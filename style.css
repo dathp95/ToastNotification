@@ -20,6 +20,29 @@ body {
 body > div {
     margin: auto;
 }
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    min-width: 120px;
+    padding: 12px 48px;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
+.btn.btn--success {
+    background-color: rgb(64, 230, 31);
+}
+.btn.btn--error {
+    background-color: rgb(230, 31, 31);
+}
 #toast {
     position: fixed;
     right: 32px;
